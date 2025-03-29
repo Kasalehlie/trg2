@@ -10,21 +10,19 @@ export default function StatsSection() {
         >
           <Fade left>
             <div className="w-32 h-32 border-solid border-sushi border-4 flex items-center">
-              <h2 className="text-7xl font-bold ml-6">3598</h2>
+              <h2 className="text-7xl font-bold ml-6">3547</h2>
             </div>
             <div className="w-24"></div>
             <div className="h-full flex items-center font-normal text-lg">
               <h1>
                 Apartment Units
-                <br />
-                Under Construction
               </h1>
             </div>
           </Fade>
         </div>
         <Fade right>
           <img
-            src="https://res.cloudinary.com/dgjw3jwe3/image/upload/w_550/q_auto/v1638390277/images/num-ap_r0t39d.jpg"
+            src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838073/images/Projects/TheStack2/The-Stack-08_nermcc.jpg"
             className={`w-full h-auto z-10`}
           />
           <div
@@ -37,7 +35,7 @@ export default function StatsSection() {
         <div className="flex items-center justify-start md:justify-center w-full md:col-start-2">
           <Fade right>
             <div className="w-32 h-32 border-solid border-sushi border-4 flex items-center">
-              <h2 className="text-7xl font-bold ml-10">7.9</h2>
+              <h2 className="text-7xl font-bold ml-10">5.7</h2>
             </div>
             <div className="w-12"></div>
             <div className="h-full flex items-center font-normal text-lg">
