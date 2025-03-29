@@ -1,45 +1,18 @@
 [
   {
-    "id": "28",
-    "title": "The Grid",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668112165/images/Projects/TheGrid/C031_sdkdyb.jpg",
-    "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668111857/images/Projects/TheGrid/C01_mteogu.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668112165/images/Projects/TheGrid/C031_sdkdyb.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668112018/images/Projects/TheGrid/C041_c9vldf.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668111857/images/Projects/TheGrid/C05_bzsgnh.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668111857/images/Projects/TheGrid/C06_wyr7ww.jpg"
-    ],
-    "category": "multi-family",
-    "stats": [
-      {
-        "type": "units",
-        "text": "321"
-      },
-      {
-        "type": "status",
-        "text": "Preconstruction"
-      },
-      {
-        "type": "type",
-        "text": "Ground Up"
-      },
-      {
-        "type": "location",
-        "text": "Salt Lake City, UT"
-      }
-    ]
-  },
-  {
     "id": "13",
     "title": "The Charles",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464809/images/Projects/TheCharles/C06_-Edited_d2w5i4.jpg",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740439413/images/Projects/TheCharles2/The_Charles_GR_MR_1_of_104_wx1v8k_rpr6nu.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464518/images/Projects/TheCharles/C03_ykdwwy.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464809/images/Projects/TheCharles/C06_-Edited_d2w5i4.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464518/images/Projects/TheCharles/C05_lnvkny.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464518/images/Projects/TheCharles/C01_ozsslm.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464518/images/Projects/TheCharles/C04-2_jcfslk.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740439413/images/Projects/TheCharles2/The_Charles_GR_MR_1_of_104_wx1v8k_rpr6nu.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174715/images/Projects/TheCharles2/The_Charles_GR_MR_2_of_104_sqtszo.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174723/images/Projects/TheCharles2/The_Charles_GR_MR_49_of_104_gu6flk.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174722/images/Projects/TheCharles2/The_Charles_GR_MR_28_of_104_kq3f2p.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174717/images/Projects/TheCharles2/The_Charles_GR_MR_7_of_104_ldenjd.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174726/images/Projects/TheCharles2/The_Charles_GR_MR_72_of_104_pojghx.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174728/images/Projects/TheCharles2/The_Charles_GR_MR_94_of_104_a2xozd.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174720/images/Projects/TheCharles2/The_Charles_GR_MR_22_of_104_ad9krm.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174725/images/Projects/TheCharles2/The_Charles_GR_MR_63_of_104_gtrp6i.jpg"
     ],
     "category": "multi-family",
     "stats": [
@@ -48,12 +21,12 @@
         "text": "240"
       },
       {
-        "type": "year Started",
-        "text": "2019"
+        "type": "year Completed",
+        "text": "2022"
       },
       {
         "type": "status",
-        "text": "Under Construction"
+        "text": "Completed"
       },
       {
         "type": "type",
@@ -68,11 +41,22 @@
   {
     "id": "3",
     "title": "Le Meridien",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390991/images/Projects/LeMeridien/C05-Edited_eahsrb.jpg",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174545/images/Projects/LeMeridian2/MER_SLCLD_EXTERIOR_DAY-5_hyq2my.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390991/images/Projects/LeMeridien/C05-Edited_eahsrb.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390945/images/Projects/LeMeridien/C04_-edited_bpgtnw.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390945/images/Projects/LeMeridien/C01_xpi96r.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174545/images/Projects/LeMeridian2/MER_SLCLD_EXTERIOR_DAY-5_hyq2my.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174547/images/Projects/LeMeridian2/MER_SLCLD_front_desk-2_gzkhkh.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174551/images/Projects/LeMeridian2/MER_SLCLD_Library-2_yhqtsj.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174554/images/Projects/LeMeridian2/MER_SLCLD_Lobby_Fireplace_ezd6ce.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174544/images/Projects/LeMeridian2/MER_SLCLD_Adelaide_overall_ujlxx2.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174561/images/Projects/LeMeridian2/MER_SLCLD_Van_Ryder_Bar_kbzesh.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174562/images/Projects/LeMeridian2/MER_SLCLD_Van_Ryder_Foyer_a83ws9.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174555/images/Projects/LeMeridian2/MER_SLCLD_pool_qdptle.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174541/images/Projects/LeMeridian2/HAM_20230320_143333_dhp-Edit-Edit-2_ybk9iu.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174542/images/Projects/LeMeridian2/HAM_20230320_155758_dhp-Edit_w2tyor.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174540/images/Projects/LeMeridian2/HAM_20230320_104815-Edit_qbfvjx.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174552/images/Projects/LeMeridian2/MER_SLCLD_lobby_detail-2_tr7zhs.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174559/images/Projects/LeMeridian2/MER_SLCLD_STAH_Bedroom-2_fpft6l.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174557/images/Projects/LeMeridian2/MER_SLCLD_QNQN_Shower_f9iisx.jpg"
     ],
     "category": "hospitality",
     "stats": [
@@ -81,12 +65,12 @@
         "text": "144"
       },
       {
-        "type": "year Started",
-        "text": "2020"
+        "type": "year Completed",
+        "text": "2023"
       },
       {
         "type": "status",
-        "text": "Under Construction"
+        "text": "Completed"
       },
       {
         "type": "type",
@@ -101,11 +85,14 @@
   {
     "id": "2",
     "title": "Element by Westin",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390281/images/Projects/Block67/ElementSLC_umuxtb.png",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174297/images/Projects/ElementWestin/ELM_SICEL_EXTERIOR_DAY_zoklyb.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390477/images/Projects/Block67/Block67_11_-_Photo_g5ajlu.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390476/images/Projects/Block67/Block67_2_-_Photo_buhlno.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390281/images/Projects/Block67/ElementSLC_umuxtb.png"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174297/images/Projects/ElementWestin/ELM_SICEL_EXTERIOR_DAY_zoklyb.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174299/images/Projects/ElementWestin/ELM_SICEL_Lobby_uhkcme.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174306/images/Projects/ElementWestin/ELM_SICEL_Studio_Common_Overall-_ljmeg8.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174300/images/Projects/ElementWestin/ELM_SICEL_QQAH_Bedroom_hkes3s.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174302/images/Projects/ElementWestin/ELM_SICEL_QSAH_Kitchen_n82sfq.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174298/images/Projects/ElementWestin/ELM_SICEL_Fitness-2_ue0i5d.jpg"
     ],
     "category": "hospitality",
     "stats": [
@@ -114,12 +101,12 @@
         "text": "126"
       },
       {
-        "type": "year Started",
-        "text": "2020"
+        "type": "year Completed",
+        "text": "2023"
       },
       {
         "type": "status",
-        "text": "Under Construction"
+        "text": "Completed"
       },
       {
         "type": "type",
@@ -163,6 +150,37 @@
     ]
   },
   {
+    "id": "28",
+    "title": "Heber Apartments",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740438549/images/Projects/HeberApts/Heber_NWCorner_ph6u45.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740438549/images/Projects/HeberApts/Heber_NWCorner_ph6u45.jpg"
+    ],
+    "category": "multi-family",
+    "stats": [
+      {
+        "type": "keys",
+        "text": "270"
+      },
+      {
+        "type": "year Started",
+        "text": "2025"
+      },
+      {
+        "type": "status",
+        "text": "Pre-Construction"
+      },
+      {
+        "type": "type",
+        "text": "Ground Up"
+      },
+      {
+        "type": "Location",
+        "text": "Heber City, UT"
+      }
+    ]
+  },
+  {
     "id": "15",
     "title": "XR International III",
     "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810192/images/Projects/XR3/XR3_hnleoo.jpg",
@@ -170,7 +188,6 @@
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810192/images/Projects/XR3/XR3_hnleoo.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside3_gdrcug.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside6_avh7wh.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-2_sc1ymz.png",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside5_e4xcdy.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside4-jpg_z9jxc6.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside1_zixdcw.jpg",
@@ -203,13 +220,17 @@
   {
     "id": "14",
     "title": "The Stack",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606520/images/Projects/TheStack/C02_hodnry.jpg",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742840684/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Exterior_Website_zwpkgp.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464605/images/Projects/TheStack/Brickyard_exterior_ya1zcp.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606520/images/Projects/TheStack/C03_b1wowe.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606438/images/Projects/TheStack/C01_ipkwzr.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606368/images/Projects/TheStack/C04_x9cvhy.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606363/images/Projects/TheStack/C05_vfhwki.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742840684/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Exterior_Website_zwpkgp.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837921/images/Projects/TheStack2/The-Stack-32_zgdyb4.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838020/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Resident_Coffee_Bar_jkmua5.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837802/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Resort_Pool_tn65el.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837992/images/Projects/TheStack2/The_Stack-_Sugarhouse_Apartments_Fitness_Center_j7a74l.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838009/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Top_Floor_Lounge_qz0vz7.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838055/images/Projects/TheStack2/The-Stack-05_lmkcvr.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837966/images/Projects/TheStack2/The-Stack-07_rshbmq.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838073/images/Projects/TheStack2/The-Stack-08_nermcc.jpg"
     ],
     "category": "multi-family",
     "stats": [
@@ -218,12 +239,12 @@
         "text": "254"
       },
       {
-        "type": "year Started",
-        "text": "2020"
+        "type": "year Completed",
+        "text": "2024"
       },
       {
         "type": "status",
-        "text": "Under Construction"
+        "text": "Completed"
       },
       {
         "type": "type",
@@ -238,10 +259,17 @@
   {
     "id": "10",
     "title": "The Arden",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418990/images/Projects/Oakwood/210231_Oakwood_Mundy_Mills_3D_Renderings_09-23-2021_Page_2_fddvbm.jpg",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432389/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_006_avcbhx.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418990/images/Projects/Oakwood/210231_Oakwood_Mundy_Mills_3D_Renderings_09-23-2021_Page_2_fddvbm.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418989/images/Projects/Oakwood/210231_Oakwood_Mundy_Mills_3D_Renderings_09-23-2021_Page_1_rvmnc8.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432389/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_006_avcbhx.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432174/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_010_iipoqj.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432454/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_016_hyqrkp.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432231/images/Projects/TheArden2/The_Arden_2024_Interiors_112_umxp6s.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432248/images/Projects/TheArden2/The_Arden_2024_Interiors_124_s1m4m8.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432269/images/Projects/TheArden2/The_Arden_2024_Interiors_200_z6py4y.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1743021713/images/Projects/TheArden2/The_Arden_2024_Interiors_500_m1oaap.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1743021911/images/Projects/TheArden2/The_Arden_2024_Interiors_524_scbsl6.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1743021922/images/Projects/TheArden2/The_Arden_2024_Interiors_548_qo09od.jpg"
     ],
     "category": "multi-family",
     "stats": [
@@ -250,12 +278,12 @@
         "text": "240"
       },
       {
-        "type": "year Started",
-        "text": "2019"
+        "type": "year Completed",
+        "text": "2024"
       },
       {
         "type": "status",
-        "text": "Under Construction"
+        "text": "Completed"
       },
       {
         "type": "type",
@@ -282,12 +310,12 @@
         "text": "512"
       },
       {
-        "type": "year Started",
-        "text": "2021"
+        "type": "year Completed",
+        "text": "2025"
       },
       {
         "type": "status",
-        "text": "Under Construction"
+        "text": "Completed"
       },
       {
         "type": "type",
@@ -344,7 +372,7 @@
     "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_uj0jez.jpg",
     "carousel": [
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_uj0jez.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/The_Rivulet_smq4fw.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740421859/images/Projects/Rivulet/Aerial_View_of_Amenities_at_Rivulet_ikleo0.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_6_vwny5n.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_5_rm4ob0.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_4_i7qgzs.jpg",
@@ -364,7 +392,7 @@
         "text": "252"
       },
       {
-        "type": "year Started",
+        "type": "year Completed",
         "text": "2018"
       },
       {
@@ -383,10 +411,17 @@
   },
   {
     "id": "8",
-    "title": "AF III",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466919/images/Projects/AF111/6-23-2021_Rendering_1_khjfka.jpg",
+    "title": "Solhavn",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158765/images/Projects/Solhavn/DJI_0439-r1_x3dbrt.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466919/images/Projects/AF111/6-23-2021_Rendering_1_khjfka.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158707/images/Projects/Solhavn/DJI_0976-1_rxmkne.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158724/images/Projects/Solhavn/DJI_0982_nckzkp.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158791/images/Projects/Solhavn/DJI_0440-r1_lp2yxl.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158765/images/Projects/Solhavn/DJI_0439-r1_x3dbrt.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158994/images/Projects/Solhavn/_DSC8275_gyrnmt.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159082/images/Projects/Solhavn/_DSC8146_ivstzw.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159088/images/Projects/Solhavn/_DSC8170_evvkct.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159039/images/Projects/Solhavn/_DSC8179_y1ibkv.jpg"
     ],
     "category": "multi-family",
     "stats": [
@@ -395,12 +430,12 @@
         "text": "352"
       },
       {
-        "type": "year Started",
-        "text": "2022"
+        "type": "year Completed",
+        "text": "2025"
       },
       {
         "type": "status",
-        "text": "Pre-Development"
+        "text": "Completed"
       },
       {
         "type": "type",
@@ -491,7 +526,7 @@
         "text": "100"
       },
       {
-        "type": "year Started",
+        "type": "year Completed",
         "text": "2021"
       },
       {
@@ -1047,7 +1082,7 @@
   },
   {
     "id": "27",
-    "title": "South Temple Apartments",
+    "title": "Maye House",
     "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606204/images/Projects/SouthTemple/South_Temple_Noutheast_View_d4purg.jpg",
     "carousel": [
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606201/images/Projects/SouthTemple/South_Temple_Southeast_View_ut6khl.jpg",

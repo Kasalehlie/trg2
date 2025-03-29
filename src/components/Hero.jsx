@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <div className="w-full h-128 bg-white relative">
       <img
-        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464518/images/Projects/TheCharles/C01_ozsslm.jpg"
+        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740439413/images/Projects/TheCharles2/The_Charles_GR_MR_1_of_104_wx1v8k_rpr6nu.jpg"
         className={`w-full h-full object-cover object-center absolute inset-0 ${
           currentSlide === 1
             ? "translate-x-0 transition-transform duration-1000"
@@ -26,7 +26,7 @@ export default function Hero() {
         }`}
       />
       <img
-        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419234/images/Projects/Midtown360/Midtown_360_HR_112_of_116_edit_adnzhu.jpg"
+        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174545/images/Projects/LeMeridian2/MER_SLCLD_EXTERIOR_DAY-5_hyq2my.jpg"
         className={`w-full h-full object-cover object-center absolute inset-0 ${
           currentSlide === 2
             ? "translate-x-0 transition-transform duration-1000"
@@ -38,7 +38,7 @@ export default function Hero() {
         }`}
       />
       <img
-        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390991/images/Projects/LeMeridien/C05-Edited_eahsrb.jpg"
+        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742923538/images/Projects/LandingPage/Front_Aerial_ividmv.jpg"
         className={`w-full h-full object-cover object-center absolute inset-0 ${
           currentSlide === 3
             ? "translate-x-0 transition-transform duration-1000"
@@ -54,9 +54,9 @@ export default function Hero() {
           <div>
             <h1 className="font-semibold text-md text-white uppercase mb-2">
               {currentSlide === 1
-                ? "Hospitality"
+                ? "Multi-Family"
                 : currentSlide === 2
-                ? "Industrial"
+                ? "Hospitality"
                 : "Multi-Family"}
             </h1>
             <h1 className="font-bold text-white text-4xl uppercase">

@@ -75,7 +75,7 @@ export const CustomHeader = () => {
                   </a>
 
                   <a
-                    href="https://investors.appfolioim.com/ritchiegroup/investor"
+                    href="https://theritchiegroup.portal.agorareal.com/#/login?redirectUrl=%2F"
                     className="text-4xl font-semibold text-gray-200 hover:text-gray-400"
                   >
                     Investor Portal
