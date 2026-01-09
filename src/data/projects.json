@@ -117,13 +117,75 @@
         "text": "Salt Lake City, UT"
       }
     ]
+  }, 
+   {
+    "id": "31",
+    "title": "XR Quadrant III",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987338/images/Projects/Quadrant1/QIII_Aerial_-_Finished_gpz3xl.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987338/images/Projects/Quadrant1/QIII_Aerial_-_Finished_gpz3xl.jpg"
+    ],
+    "category": "industrial",
+    "stats": [
+      {
+        "type": "squareFeet",
+        "text": "1,161,600"
+      },
+      {
+        "type": "year Completed",
+        "text": "2025"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Cross Dock"
+      },
+      {
+        "type": "location",
+        "text": "Salt Lake City, UT"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "title": "XR Quadrant II",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg"
+    ],
+    "category": "industrial",
+    "stats": [
+      {
+        "type": "squareFeet",
+        "text": "1,067,000"
+      },
+      {
+        "type": "year Completed",
+        "text": "2023"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Cross Dock"
+      },
+      {
+        "type": "location",
+        "text": "Salt Lake City, UT"
+      }
+    ]
   },
   {
     "id": "29",
-    "title": "Quadrant 1",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668117300/images/Projects/Quadrant1/G-Bar_-_Day_irv6r7.jpg",
+    "title": "XR Quadrant I",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1668117299/images/Projects/Quadrant1/G-Bar_-_Night_nz7f73.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg"
     ],
     "category": "industrial",
     "stats": [
@@ -148,6 +210,83 @@
         "text": "Salt Lake City, UT"
       }
     ]
+  }, 
+  {
+    "id": "32",
+    "title": "GLH Building I",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897363/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_High_Angle_ivprej.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897363/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_High_Angle_ivprej.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897384/images/Projects/GLH%20Building%20I/Aerial_Storefront_and_Dock_View_xa9lxn.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767988321/images/Projects/GLH%20Building%20I/Exterior_Dock_Doors-WEBSITE_q93amq.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897391/images/Projects/GLH%20Building%20I/Storefront_hvebnl.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767988329/images/Projects/GLH%20Building%20I/Interior_Dock_Doors-WEBSITE_dykokj.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897377/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_Medium_Angle_ubeg69.jpg"
+    ],
+    "category": "industrial",
+    "stats": [
+      {
+        "type": "squareFeet",
+        "text": "502,082"
+      },
+      {
+        "type": "year Completed",
+        "text": "2026"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Cross Dock"
+      },
+      {
+        "type": "location",
+        "text": "Salt Lake City, UT"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Solhavn",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767827724/images/Projects/Solhavn/09-DJI_20250716092432_0416_D_pepkcz.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767827724/images/Projects/Solhavn/09-DJI_20250716092432_0416_D_pepkcz.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767826746/images/Projects/Solhavn/10-DJI_20250716092649_0418_D_1_tpl75k.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158724/images/Projects/Solhavn/DJI_0982_nckzkp.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158707/images/Projects/Solhavn/DJI_0976-1_rxmkne.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767826625/images/Projects/Solhavn/12-DJI_20250716092815_0422_D_wgduxs.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767826683/images/Projects/Solhavn/05-DSC5891_lbd330.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158791/images/Projects/Solhavn/DJI_0440-r1_lp2yxl.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158994/images/Projects/Solhavn/_DSC8275_gyrnmt.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159082/images/Projects/Solhavn/_DSC8146_ivstzw.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159088/images/Projects/Solhavn/_DSC8170_evvkct.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159039/images/Projects/Solhavn/_DSC8179_y1ibkv.jpg"
+    ],
+    "category": "multi-family",
+    "stats": [
+      {
+        "type": "units",
+        "text": "352"
+      },
+      {
+        "type": "year Completed",
+        "text": "2025"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Ground Up"
+      },
+      {
+        "type": "location",
+        "text": "American Fork, UT"
+      }
+    ]
   },
   {
     "id": "28",
@@ -168,7 +307,7 @@
       },
       {
         "type": "status",
-        "text": "Pre-Construction"
+        "text": "Construction"
       },
       {
         "type": "type",
@@ -181,27 +320,27 @@
     ]
   },
   {
-    "id": "15",
-    "title": "XR International III",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810192/images/Projects/XR3/XR3_hnleoo.jpg",
+    "id": "27",
+    "title": "Maye House",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828699/images/Projects/SouthTemple/Exterior_View_at_Maye_House_FULL_zkivkm.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810192/images/Projects/XR3/XR3_hnleoo.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside3_gdrcug.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside6_avh7wh.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside5_e4xcdy.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside4-jpg_z9jxc6.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside1_zixdcw.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810190/images/Projects/XR3/XR3-inside2_bwwhhl.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828699/images/Projects/SouthTemple/Exterior_View_at_Maye_House_FULL_zkivkm.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828829/images/Projects/SouthTemple/Wasatch_Maye_House_15_ir9lvq.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828981/images/Projects/SouthTemple/Wasatch_Maye_House_23_1_v3cmdb.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828790/images/Projects/SouthTemple/Resident_Hangout_at_Maye_House_FULL_xidxq0.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828812/images/Projects/SouthTemple/Wasatch_Maye_House_11_rattew.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829305/images/Projects/SouthTemple/Maye_House_2_Bedroom_Dining_Area_and_Kitchen_FULL_am3aa0.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829342/images/Projects/SouthTemple/Kitchen_into_Living_Room_at_Maye_House_FULL_w0lwag.jpg"
     ],
-    "category": "industrial",
+    "category": "multi-family",
     "stats": [
       {
-        "type": "squareFeet",
-        "text": "325,000"
+        "type": "units",
+        "text": "121"
       },
       {
         "type": "year Completed",
-        "text": "2021"
+        "text": "2025"
       },
       {
         "type": "status",
@@ -209,11 +348,11 @@
       },
       {
         "type": "type",
-        "text": "Cross Dock"
+        "text": "Remodel + Ground Up"
       },
       {
         "type": "location",
-        "text": "Salt Lake City, UT"
+        "text": "Salt Lake City, Ut"
       }
     ]
   },
@@ -298,10 +437,11 @@
   {
     "id": "7",
     "title": "The Arza",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418825/images/Projects/AF860/AF_Clubhouse_-_Carriage_qk0bhi.jpg",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829998/images/Projects/AF860/Arza_Aerial_Night_Lights_iuxcsa.jpg",
     "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418825/images/Projects/AF860/AF_Clubhouse_-_Carriage_qk0bhi.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418812/images/Projects/AF860/AF_Carriage_-_Clubhouse_ds29me.jpg"
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829998/images/Projects/AF860/Arza_Aerial_Night_Lights_iuxcsa.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829986/images/Projects/AF860/Arza_Aerial_Dusk_Mountains_gmsznf.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829976/images/Projects/AF860/Arza_Aerial_Dusk_Head_On_ik1lne.jpg"
     ],
     "category": "multi-family",
     "stats": [
@@ -367,11 +507,49 @@
     ]
   },
   {
+    "id": "15",
+    "title": "XR International III",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810192/images/Projects/XR3/XR3_hnleoo.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810192/images/Projects/XR3/XR3_hnleoo.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside3_gdrcug.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside6_avh7wh.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside5_e4xcdy.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside4-jpg_z9jxc6.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810191/images/Projects/XR3/XR3-inside1_zixdcw.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810190/images/Projects/XR3/XR3-inside2_bwwhhl.jpg"
+    ],
+    "category": "industrial",
+    "stats": [
+      {
+        "type": "squareFeet",
+        "text": "325,000"
+      },
+      {
+        "type": "year Completed",
+        "text": "2021"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Cross Dock"
+      },
+      {
+        "type": "location",
+        "text": "Salt Lake City, UT"
+      }
+    ]
+  },
+  {
     "id": "12",
     "title": "Rivulet",
     "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_uj0jez.jpg",
     "carousel": [
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_uj0jez.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767990171/images/Projects/Rivulet/Aerial_View_of_Rivulet_1_tzxazx.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740421859/images/Projects/Rivulet/Aerial_View_of_Amenities_at_Rivulet_ikleo0.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_6_vwny5n.jpg",
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_5_rm4ob0.jpg",
@@ -394,44 +572,6 @@
       {
         "type": "year Completed",
         "text": "2018"
-      },
-      {
-        "type": "status",
-        "text": "Completed"
-      },
-      {
-        "type": "type",
-        "text": "Ground Up"
-      },
-      {
-        "type": "location",
-        "text": "American Fork, UT"
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "title": "Solhavn",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158765/images/Projects/Solhavn/DJI_0439-r1_x3dbrt.jpg",
-    "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158707/images/Projects/Solhavn/DJI_0976-1_rxmkne.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158724/images/Projects/Solhavn/DJI_0982_nckzkp.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158791/images/Projects/Solhavn/DJI_0440-r1_lp2yxl.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158765/images/Projects/Solhavn/DJI_0439-r1_x3dbrt.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158994/images/Projects/Solhavn/_DSC8275_gyrnmt.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159082/images/Projects/Solhavn/_DSC8146_ivstzw.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159088/images/Projects/Solhavn/_DSC8170_evvkct.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159039/images/Projects/Solhavn/_DSC8179_y1ibkv.jpg"
-    ],
-    "category": "multi-family",
-    "stats": [
-      {
-        "type": "units",
-        "text": "352"
-      },
-      {
-        "type": "year Completed",
-        "text": "2025"
       },
       {
         "type": "status",
@@ -1077,38 +1217,6 @@
       {
         "type": "Location",
         "text": "Kauai, HI"
-      }
-    ]
-  },
-  {
-    "id": "27",
-    "title": "Maye House",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606204/images/Projects/SouthTemple/South_Temple_Noutheast_View_d4purg.jpg",
-    "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606201/images/Projects/SouthTemple/South_Temple_Southeast_View_ut6khl.jpg",
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1662606204/images/Projects/SouthTemple/South_Temple_Noutheast_View_d4purg.jpg"
-    ],
-    "category": "multi-family",
-    "stats": [
-      {
-        "type": "units",
-        "text": "121"
-      },
-      {
-        "type": "year Started",
-        "text": "2022"
-      },
-      {
-        "type": "status",
-        "text": "Under Construction"
-      },
-      {
-        "type": "type",
-        "text": "Remodel + Ground Up"
-      },
-      {
-        "type": "location",
-        "text": "Salt Lake City, Ut"
       }
     ]
   }

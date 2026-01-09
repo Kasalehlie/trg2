@@ -38,7 +38,7 @@ export default function Hero() {
         }`}
       />
       <img
-        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742923538/images/Projects/LandingPage/Front_Aerial_ividmv.jpg"
+        src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767827724/images/Projects/Solhavn/09-DJI_20250716092432_0416_D_pepkcz.jpg"
         className={`w-full h-full object-cover object-center absolute inset-0 ${
           currentSlide === 3
             ? "translate-x-0 transition-transform duration-1000"

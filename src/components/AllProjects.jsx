@@ -33,6 +33,11 @@ export default function ProjectSection() {
             Hospitality
           </button>
         </li>
+        <li>
+          <button onClick={() => setProjectCategory("hospitality")}>
+            Mixed-Use
+          </button>
+        </li>
       </ul>
       {currentProjects.length === 0 && (
         <p className="text-center text-xl font-bold py-2">
