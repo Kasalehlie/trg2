@@ -110,100 +110,7 @@
       },
       {
         "type": "type",
-        "text": "Limited Service"
-      },
-      {
-        "type": "location",
-        "text": "Salt Lake City, UT"
-      }
-    ]
-  }, 
-   {
-    "id": "31",
-    "title": "XR Quadrant III",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987338/images/Projects/Quadrant1/QIII_Aerial_-_Finished_gpz3xl.jpg",
-    "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987338/images/Projects/Quadrant1/QIII_Aerial_-_Finished_gpz3xl.jpg"
-    ],
-    "category": "industrial",
-    "stats": [
-      {
-        "type": "squareFeet",
-        "text": "1,161,600"
-      },
-      {
-        "type": "year Completed",
-        "text": "2025"
-      },
-      {
-        "type": "status",
-        "text": "Completed"
-      },
-      {
-        "type": "type",
-        "text": "Cross Dock"
-      },
-      {
-        "type": "location",
-        "text": "Salt Lake City, UT"
-      }
-    ]
-  },
-  {
-    "id": "30",
-    "title": "XR Quadrant II",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg",
-    "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg"
-    ],
-    "category": "industrial",
-    "stats": [
-      {
-        "type": "squareFeet",
-        "text": "1,067,000"
-      },
-      {
-        "type": "year Completed",
-        "text": "2023"
-      },
-      {
-        "type": "status",
-        "text": "Completed"
-      },
-      {
-        "type": "type",
-        "text": "Cross Dock"
-      },
-      {
-        "type": "location",
-        "text": "Salt Lake City, UT"
-      }
-    ]
-  },
-  {
-    "id": "29",
-    "title": "XR Quadrant I",
-    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg",
-    "carousel": [
-      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg"
-    ],
-    "category": "industrial",
-    "stats": [
-      {
-        "type": "squareFeet",
-        "text": "1,011,710"
-      },
-      {
-        "type": "year Completed",
-        "text": "2021"
-      },
-      {
-        "type": "status",
-        "text": "Completed"
-      },
-      {
-        "type": "type",
-        "text": "Cross Dock"
+        "text": "Extended Stay"
       },
       {
         "type": "location",
@@ -290,7 +197,7 @@
   },
   {
     "id": "28",
-    "title": "Heber Apartments",
+    "title": "Etta Place",
     "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740438549/images/Projects/HeberApts/Heber_NWCorner_ph6u45.jpg",
     "carousel": [
       "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740438549/images/Projects/HeberApts/Heber_NWCorner_ph6u45.jpg"
