@@ -49,7 +49,7 @@ export default function StatsSection() {
         </div>
         <Fade left>
           <img
-            src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg"
+            src="https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897377/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_Medium_Angle_ubeg69.jpg"
             className={`w-full h-auto transform z-10 md:col-start-1 md:row-start-1`}
           />
           <div
