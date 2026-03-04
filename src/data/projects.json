@@ -196,6 +196,107 @@
     ]
   },
   {
+    "id": "31",
+    "title": "XR Quadrant III",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648507/images/Projects/Quadrant3/QIII_Exterior_Length_dob24u.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648507/images/Projects/Quadrant3/QIII_Exterior_Length_dob24u.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648506/images/Projects/Quadrant3/QIII_Aerial_-_Finished_rwk7po.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648721/images/Projects/Quadrant3/Interior_Main_Entrance_Website_eijsjn.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648799/images/Projects/Quadrant3/Interior_Vastness_Website_uh7d4k.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648717/images/Projects/Quadrant3/Interior_Dock_Doors_Area_Website_jyr2ae.jpg"
+    ],
+    "category": "industrial",
+    "stats": [
+      {
+        "type": "squareFeet",
+        "text": "1,161,600"
+      },
+      {
+        "type": "year Completed",
+        "text": "2025"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Cross Dock"
+      },
+      {
+        "type": "location",
+        "text": "Salt Lake City, UT"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "title": "XR Quadrant II",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649129/images/Projects/Quadrant2/Slightly_Elevated_Exterior_goydo1.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649129/images/Projects/Quadrant2/Slightly_Elevated_Exterior_goydo1.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649143/images/Projects/Quadrant2/Ground_Level_Exterior_dgbdsb.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649302/images/Projects/Quadrant2/QI_QII_QIII_Aerial_-_QIII_Plat_only_gyjdxw.jpg"
+    ],
+    "category": "industrial",
+    "stats": [
+      {
+        "type": "squareFeet",
+        "text": "1,067,000"
+      },
+      {
+        "type": "year Completed",
+        "text": "2023"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Cross Dock"
+      },
+      {
+        "type": "location",
+        "text": "Salt Lake City, UT"
+      }
+    ]
+  },
+
+  {
+    "id": "29",
+    "title": "XR Quadrant I",
+    "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649455/images/Projects/Quadrant1/Aerial_Exterior_QI_jzxmok.jpg",
+    "carousel": [
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649455/images/Projects/Quadrant1/Aerial_Exterior_QI_jzxmok.jpg",
+      "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg"
+    ],
+    "category": "industrial",
+    "stats": [
+      {
+        "type": "squareFeet",
+        "text": "1,011,710"
+      },
+      {
+        "type": "year Completed",
+        "text": "2021"
+      },
+      {
+        "type": "status",
+        "text": "Completed"
+      },
+      {
+        "type": "type",
+        "text": "Cross Dock"
+      },
+      {
+        "type": "location",
+        "text": "Salt Lake City, UT"
+      }
+    ]
+  }, 
+  {
     "id": "28",
     "title": "Etta Place",
     "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740438549/images/Projects/HeberApts/Heber_NWCorner_ph6u45.jpg",
