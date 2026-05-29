@@ -6,8 +6,9 @@
 
 ## Goal
 
-Let non-technical staff edit site content — **Projects, News, Team, and the homepage
-images** — through a friendly admin UI, without touching code or Git directly. The site
+Let non-technical staff edit site content — **Projects (incl. marking homepage-featured
+ones), News, Team, the homepage hero + stat callouts and their images, and the About Us
+paragraph** — through a friendly admin UI, without touching code or Git directly. The site
 will then be handed off and run largely unattended (edits a few times a year). The
 solution must therefore have **nothing that rots or must be babysat**: no database, no
 always-on server.
@@ -78,15 +79,35 @@ and eliminates the manual-ID collisions present in the current data.
 | `id` | hidden | Existing projects keep their current numeric id so **detail-page URLs (`/projects/<id>`) do not change**. New projects auto-fill id from slug. |
 | `title` | text (required) | |
 | `order` | number | **New.** Preserves the curated display order the single array provides today (folder collections otherwise lose ordering). Seeded from current positions. |
+| `featured` | boolean | **New.** When true, the project is pulled to the **front** of the homepage "Project Highlights" carousel (featured projects first, then the rest, each group by `order`). Defaults to `false`. Does not affect the `/projects` page. |
 | `category` | select | `multi-family` / `hospitality` / `industrial` / `mixed-use`. Adds the real **Mixed-Use** category (the filter button for it is currently broken). |
 | `image` | Cloudinary image (required) | main / card / hero image |
 | `carousel` | list of Cloudinary images | detail-page gallery |
-| `stats` | list of `{ type, text }` | `type` is a **dropdown of canonical values** (see below). `text` is the free value. Keeps the existing `{type, text}` shape so `ProjectStats` rendering is unchanged. |
+| `stats` | list of `{ type, text }` | `type` is a **dropdown** driven by the stat-types config (see below). `text` is the value; for `status` and `projectType` the value is also a dropdown. Keeps the `{type, text}` shape so `ProjectStats` rendering is essentially unchanged. |
 
-Canonical stat `type` values (label → stored value): Units → `units`, Keys → `keys`,
+#### Stat types configuration (single source of truth)
+
+Today the stat vocabulary is duplicated across three places that have already drifted:
+the data, `getIcon`, and `getDisplayName` (whose `startYear`/`developmentBudget` cases
+never fire because no other place uses those names). This work replaces that with **one
+config module** (e.g. `src/config/statTypes.js`) listing each canonical stat as
+`{ value, label, icon }`. `getIcon`, `getDisplayName`, and the CMS `type` dropdown all
+derive from it, so the vocabulary can no longer drift.
+
+Canonical stat types (label → stored `value`): Units → `units`, Keys → `keys`,
 Square Feet → `squareFeet`, Year Completed → `yearCompleted`, Year Started → `yearStarted`,
-Status → `status`, Type → `type`, Location → `location`. These match what `getIcon`
-already switches on, fixing icons that currently render as a generic gear (see Bugs).
+Status → `status`, Type → `projectType`, Location → `location`. Notes:
+
+- **`type` is renamed to `projectType`** (display label stays "Type"). Today a stat is
+  literally `{ type: "type", text: "Ground Up" }` — the kind-key `type` whose value is
+  `type`. Renaming removes that collision/confusion in code.
+- **`status` value is a dropdown:** `Completed` / `Under Construction` (the data only ever
+  holds "Completed" (31) and a lone "Construction").
+- **`projectType` value is a dropdown** seeded from existing values (Self-Storage, Ground
+  Up, Cross Dock, Value Add Remodel, Resort, Full Service, Extended Stay, Adaptive Reuse,
+  Remodel + Ground Up) with a custom/"Other" escape hatch.
+- The dead `getDisplayName` cases (`startYear`, `developmentBudget`) are removed; the
+  `developmentBudget`/`developmentalBudget` mismatch between the two utils goes away.
 
 ### News — `src/data/news/<slug>.json`
 
@@ -105,10 +126,21 @@ single bio.
 
 ### Homepage — `src/data/homepage.json` (singleton file collection)
 
-`heroSlides`: a list of up to 3 `{ image (Cloudinary), label }`. `Hero.jsx` is refactored
-to read this file instead of its three hardcoded image URLs and labels. During
-implementation, audit the other homepage sections (`StatsSection`, etc.) for any other
-hardcoded images; only the Hero has them as of this writing.
+One "Homepage" screen in the CMS holding all editable homepage content:
+
+- `heroSlides`: list of up to 3 `{ image (Cloudinary), label }`. `Hero.jsx` is refactored
+  to read this instead of its three hardcoded image URLs and labels.
+- `statCallouts`: the two headline figures currently hardcoded in `StatsSection.jsx` —
+  each `{ number, label, image (Cloudinary) }` (e.g. `3547` / "Apartment Units" and `5.7`
+  / "Million Industrial Square Feet"). `StatsSection.jsx` is refactored to read these, so
+  both the **numbers/labels and the two images** become editable. (These figures currently
+  duplicate the About text's stats — see below.)
+
+### About — `src/data/about.json` (singleton file collection)
+
+`aboutText`: a rich-text field for the "About Us" paragraph currently hardcoded at the top
+of the Team page (`team.astro`). `team.astro` is refactored to read it. This is the
+company description ("…second-generation family office… 3400+ multifamily units…").
 
 ## Migration & code changes (one-time)
 
@@ -119,16 +151,26 @@ A migration script, run once:
 2. Split `team.json` → `src/data/team/`, merging `biop1-3` into one `bio`, assigning `order`.
 3. Split `news.json` → `src/data/news/`, mapping `category.name`→`type` and the two date
    fields → one ISO `date`.
-4. Create `homepage.json` seeded with the Hero's current 3 images/labels.
-5. Delete the orphaned `other.json`.
+4. Create `homepage.json` seeded with the Hero's current 3 images/labels **and** the two
+   `statCallouts` (numbers/labels/images) from `StatsSection.jsx`.
+5. Create `about.json` seeded with the current "About Us" paragraph from `team.astro`.
+6. Set `featured: false` on all migrated projects (owner marks featured ones afterward in
+   the CMS).
+7. Delete the orphaned `other.json`.
 
 Code touch-ups so pages read the new structure:
 - Glob-import the folders instead of importing single JSON arrays; sort projects/team by
   `order`, news by `date`.
-- Refactor `Hero.jsx` to read `homepage.json`.
-- Update the team component for the single `bio` field.
-- Fix the `AllProjects` Mixed-Use filter + `cateogry` typo.
-- Extend `getDisplayName`/`getIcon` so canonical stat types get clean labels/icons.
+- **Homepage "Project Highlights" (`ProjectSection.jsx`): sort `featured` projects first,
+  then the rest, each by `order`.**
+- Refactor `Hero.jsx` and `StatsSection.jsx` to read `homepage.json`.
+- Refactor `team.astro` to read `about.json` for the intro paragraph.
+- Update the team component for the single `bio` field (drops the `biop1`–`biop4` props;
+  `biop4` is already passed but doesn't exist in the data).
+- Introduce `src/config/statTypes.js` as the single source of truth; derive `getIcon`,
+  `getDisplayName`, and the CMS dropdown from it.
+- Fix the `cateogry` typo in **both** `ProjectSection.jsx` and `AllProjects.jsx`, and the
+  `AllProjects` Mixed-Use filter.
 
 **The public output stays visually identical** — verified by comparing rendered pages
 before/after migration.
@@ -170,9 +212,11 @@ choice prevents that.
 ## Testing & verification
 
 1. `astro build` succeeds after migration.
-2. Rendered Projects, project detail, News, Team, and Homepage pages match the
-   pre-migration output (spot-check the built HTML diff).
-3. End-to-end CMS test: log in → edit a project → upload an image → publish → confirm the
+2. Rendered Projects, project detail, News, Team (incl. About paragraph), and Homepage
+   (hero + stat callouts) pages match the pre-migration output (spot-check the built HTML
+   diff). Confirm stat icons now render correctly (calendar/map-pin, not gear).
+3. Mark a project `featured` and confirm it jumps to the front of the homepage carousel.
+4. End-to-end CMS test: log in → edit a project → upload an image → publish → confirm the
    commit lands on `main` and Netlify redeploys with the change visible.
 
 ## Bugs found (to fix during this work)
@@ -180,11 +224,19 @@ choice prevents that.
 - **Broken stat icons:** `getIcon` switches on `yearCompleted`/`yearStarted`/`location`,
   but data stores `"year Completed"`/`"year Started"`/`"Location"`, so those stats render a
   generic gear icon. Fixed by normalizing stat `type` values.
+- **Stat vocabulary in 3 drifted places:** data vs `getIcon` vs `getDisplayName`.
+  `getDisplayName`'s `startYear`/`developmentBudget` cases never fire, and the two utils
+  disagree (`developmentBudget` vs `developmentalBudget`). Fixed by the single
+  `statTypes.js` source of truth.
 - **Mixed-Use filter:** in `AllProjects.jsx` the "Mixed-Use" button calls
   `setProjectCategory("hospitality")` (copy-paste error); there is no `mixed-use` category
   in the data. Fixed by adding the category and correcting the handler.
-- **Typo:** "cateogry" in `AllProjects.jsx` empty-state text.
+- **Typo:** "cateogry" in the empty-state text of **both** `AllProjects.jsx` and
+  `ProjectSection.jsx`.
 - **Casing drift:** `location` vs `Location`, `Salt Lake City, Ut` vs `UT`, etc.
+- **Stale content hardcoded in two places:** the company headline stats appear both in
+  `StatsSection.jsx` and the `team.astro` About paragraph. Both become editable (homepage
+  `statCallouts` and `about.json`).
 - **Data to verify (not a code bug):** `GLH Building I` has status "Completed" but
   `yearCompleted: 2026` — flag to the owner to confirm.
 - **Optional:** `projects/[id].astro` uses `.filter(...).at(0)` where `.find(...)` is
