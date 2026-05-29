@@ -1,11 +1,35 @@
-# Welcome to [Astro](https://astro.build)
+# The Ritchie Group — Website
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/basics)
+Static [Astro](https://astro.build) site for The Ritchie Group, deployed on Netlify.
+Content (projects, news, team, homepage images) is edited through an admin portal
+and stored as JSON files in this repo.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## How content updates work
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+Editors do **not** need to touch code. The flow:
+
+```
+Editor → yoursite.com/admin  (log in with the shared "TRG Editor" GitHub account)
+       → edit Projects / News / Team / Homepage in a form UI
+       → upload images via the Cloudinary widget
+       → click Publish
+            │  the CMS commits the JSON change to GitHub (main branch)
+            ▼
+       GitHub push triggers a Netlify build (astro build)
+            ▼
+       Static site redeploys (~1 min) → changes are live
+```
+
+- **Content lives as files in Git** — versioned, reversible, and durable. Every edit is a normal commit.
+- **No database, no server** — the public site is static files on Netlify's CDN.
+- **Images** are hosted on Cloudinary (cloud `dgjw3jwe3`); the CMS stores their URLs in the JSON.
+- **Data location:** `src/data/projects/`, `src/data/news/`, `src/data/team/` (one file per item),
+  plus a homepage settings file. The admin UI is at `/admin`.
+
+### Accounts that must stay alive (autopay/keep-alive)
+
+For the site to keep running unattended: the **domain registration**, **Netlify account**,
+**GitHub account/repo**, and **Cloudinary account** must all remain active.
 
 
 ## 🚀 Project Structure
