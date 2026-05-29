@@ -31,3 +31,46 @@ export function normalizeStatValue(type, text) {
   }
   return value;
 }
+
+export function projectToRecord(raw, index) {
+  return {
+    id: raw.id,
+    title: raw.title,
+    order: index,
+    featured: false,
+    category: raw.category,
+    image: raw.image,
+    carousel: Array.isArray(raw.carousel) ? raw.carousel : [],
+    stats: (raw.stats ?? []).map((s) => {
+      const type = normalizeStatType(s.type);
+      return { type, text: normalizeStatValue(type, s.text) };
+    }),
+  };
+}
+
+export function teamToRecord(raw, index) {
+  const bio = [raw.biop1, raw.biop2, raw.biop3, raw.biop4]
+    .filter(Boolean)
+    .map((p) => String(p).trim())
+    .join("\n\n");
+  return {
+    name: raw.name,
+    title: raw.title,
+    headshot: raw.headshot,
+    linkedin: raw.linkedin ?? "",
+    order: index,
+    bio,
+  };
+}
+
+export function newsToRecord(raw) {
+  return {
+    title: raw.title,
+    link: raw.href,
+    type: raw.category?.name ?? "Article",
+    description: raw.description ?? "",
+    image: raw.imageUrl,
+    author: raw.author?.name ?? "",
+    date: raw.datetime,
+  };
+}
