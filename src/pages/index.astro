@@ -17,11 +17,9 @@ import Hero from "../components/Hero.jsx";
 import Testimonials from "../components/Testimonials.astro";
 import NewsCard from "../components/NewsCard.astro";
 import ProjectCard from "../components/ProjectCard.astro";
-import projects from "../data/projects.json";
 import StatsSection from "../components/StatsSection.jsx";
 import BlogSection from "../components/BlogSection.jsx";
-
-import news from "../data/news.json";
+import { news, formatNewsDate } from "../utils/content.js";
 ---
 
 <MainLayout>
@@ -40,13 +38,14 @@ import news from "../data/news.json";
           .map((article) => (
             <BlogSection
               title={article.title}
-              href={article.href}
-              category={article.category}
+              link={article.link}
+              type={article.type}
               description={article.description}
-              date={article.date}
-              datetime={article.datetime}
-              imageUrl={article.imageUrl}
+              image={article.image}
               author={article.author}
+              date={formatNewsDate(article.date)}
+              datetime={article.date}
+              client:load
             />
           ))}
       </div>

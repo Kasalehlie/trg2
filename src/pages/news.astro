@@ -1,7 +1,7 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import BlogSection from "../components/BlogSection.jsx";
-import news from "../data/news.json";
+import { news, formatNewsDate } from "../utils/content.js";
 ---
 
 <MainLayout>
@@ -9,17 +9,16 @@ import news from "../data/news.json";
     <br />
     <h1 class="text-5xl font-bold mb-8 text-center">News Stories</h1>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      {news.map((news) => (
+      {news.map((article) => (
         <BlogSection
-          title={news.title}
-          href={news.href}
-          category={news.category}
-          description={news.desription}
-          date={news.date}
-          datetime={news.datetime}
-          imageUrl={news.imageUrl}
-          readingTime={news.readingTime}
-          author={news.author}
+          title={article.title}
+          link={article.link}
+          type={article.type}
+          description={article.description}
+          image={article.image}
+          author={article.author}
+          date={formatNewsDate(article.date)}
+          datetime={article.date}
           client:load
         />
       ))}
