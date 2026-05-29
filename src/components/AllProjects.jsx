@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import projects from "../data/projects.json";
+import { projects } from "../utils/content.js";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectSection() {
@@ -34,14 +34,14 @@ export default function ProjectSection() {
           </button>
         </li>
         <li>
-          <button onClick={() => setProjectCategory("hospitality")}>
+          <button onClick={() => setProjectCategory("mixed-use")}>
             Mixed-Use
           </button>
         </li>
       </ul>
       {currentProjects.length === 0 && (
         <p className="text-center text-xl font-bold py-2">
-          There are no projects with this cateogry.
+          There are no projects with this category.
         </p>
       )}
       <div className="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-4 mb-4">

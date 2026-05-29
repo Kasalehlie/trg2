@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
-import projects from "../data/projects.json";
+import { projects, sortFeaturedFirst } from "../utils/content.js";
 import ProjectCard from "./ProjectCard";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline/esm/index";
 
 export default function ProjectSection() {
-  const [currentProjects, setCurrentProjects] = useState(projects);
+  const [currentProjects, setCurrentProjects] = useState(sortFeaturedFirst(projects));
   const containerRef = useRef(null);
 
   const [state, setState] = useState({
@@ -48,7 +48,7 @@ export default function ProjectSection() {
 
   const setProjectCategory = (category) => {
     setCurrentProjects(
-      projects.filter((project) => project.category === category)
+      sortFeaturedFirst(projects.filter((project) => project.category === category))
     );
   };
 
@@ -57,7 +57,7 @@ export default function ProjectSection() {
       <h1 className="text-3xl font-bold mb-2">Project Highlights</h1>
       <ul className="italic flex gap-6 mb-1">
         <li>
-          <button onClick={() => setCurrentProjects(projects)}>All</button>
+          <button onClick={() => setCurrentProjects(sortFeaturedFirst(projects))}>All</button>
         </li>
         <li>
           <button onClick={() => setProjectCategory("multi-family")}>
@@ -77,7 +77,7 @@ export default function ProjectSection() {
       </ul>
       {currentProjects.length === 0 && (
         <p className="text-center text-xl font-bold py-2">
-          There are no projects with this cateogry.
+          There are no projects with this category.
         </p>
       )}
       <div className="relative w-full h-96 mb-12">
