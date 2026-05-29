@@ -1,0 +1,35 @@
+{
+  "id": "30",
+  "title": "XR Quadrant II",
+  "order": 6,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649129/images/Projects/Quadrant2/Slightly_Elevated_Exterior_goydo1.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649129/images/Projects/Quadrant2/Slightly_Elevated_Exterior_goydo1.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649143/images/Projects/Quadrant2/Ground_Level_Exterior_dgbdsb.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649302/images/Projects/Quadrant2/QI_QII_QIII_Aerial_-_QIII_Plat_only_gyjdxw.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "1,067,000"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2023"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Cross Dock"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "29",
+  "title": "XR Quadrant I",
+  "order": 7,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649455/images/Projects/Quadrant1/Aerial_Exterior_QI_jzxmok.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772649455/images/Projects/Quadrant1/Aerial_Exterior_QI_jzxmok.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767987334/images/Projects/Quadrant1/QI_QII_QIII_Aerial_-_QIII_Plat_only_s2kstr.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "1,011,710"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2021"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Cross Dock"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

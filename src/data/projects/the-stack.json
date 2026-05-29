@@ -1,0 +1,41 @@
+{
+  "id": "14",
+  "title": "The Stack",
+  "order": 10,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742840684/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Exterior_Website_zwpkgp.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742840684/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Exterior_Website_zwpkgp.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837921/images/Projects/TheStack2/The-Stack-32_zgdyb4.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838020/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Resident_Coffee_Bar_jkmua5.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837802/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Resort_Pool_tn65el.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837992/images/Projects/TheStack2/The_Stack-_Sugarhouse_Apartments_Fitness_Center_j7a74l.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838009/images/Projects/TheStack2/The_Stack_-_Sugarhouse_Apartments_Top_Floor_Lounge_qz0vz7.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838055/images/Projects/TheStack2/The-Stack-05_lmkcvr.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742837966/images/Projects/TheStack2/The-Stack-07_rshbmq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1742838073/images/Projects/TheStack2/The-Stack-08_nermcc.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "254"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2024"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

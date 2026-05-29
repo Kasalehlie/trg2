@@ -1,0 +1,36 @@
+{
+  "id": "4",
+  "title": "Koloa Landing",
+  "order": 31,
+  "featured": false,
+  "category": "hospitality",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390629/images/Projects/KoloaLanding/lihak-exterior-0085-hor-wide_bvujel.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390629/images/Projects/KoloaLanding/lihak-exterior-0085-hor-wide_bvujel.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390628/images/Projects/KoloaLanding/lihak-pool-0016-hor-wide_afiawq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390628/images/Projects/KoloaLanding/lihak-villa-0059-hor-wide_w98dnl.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390276/images/Projects/KoloaLanding/KoloaPool_w7p20x.jpg"
+  ],
+  "stats": [
+    {
+      "type": "keys",
+      "text": "306"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2008"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Resort"
+    },
+    {
+      "type": "location",
+      "text": "Kauai, HI"
+    }
+  ]
+}

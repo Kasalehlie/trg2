@@ -1,0 +1,39 @@
+{
+  "id": "1",
+  "title": "Midtown 360",
+  "order": 18,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419234/images/Projects/Midtown360/Midtown_360_HR_112_of_116_edit_adnzhu.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419505/images/Projects/Midtown360/Midtown_360_HR_106_of_116_edit_x66rmh.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419234/images/Projects/Midtown360/Midtown_360_HR_112_of_116_edit_adnzhu.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419229/images/Projects/Midtown360/Midtown_360_HR_114_of_116_edit_gt95rs.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419225/images/Projects/Midtown360/Midtown_360_MR_14_of_116_edit_af5kvn.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419224/images/Projects/Midtown360/_LLC4660_WEB_clyehp.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419224/images/Projects/Midtown360/_LLC4396_WEB_na148g.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638419223/images/Projects/Midtown360/_LLC4593_WEB_tqvmuq.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "390"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2018"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Adaptive Reuse"
+    },
+    {
+      "type": "location",
+      "text": "Orem, UT"
+    }
+  ]
+}

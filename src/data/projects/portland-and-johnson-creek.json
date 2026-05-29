@@ -1,0 +1,41 @@
+{
+  "id": "19",
+  "title": "Portland and Johnson Creek",
+  "order": 23,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418320/images/Projects/SelfStorage/PortlandJohnsonCreek/johnson_creek_0045_lmfrfi.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418320/images/Projects/SelfStorage/PortlandJohnsonCreek/johnson_creek_0030_xuqygc.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639608582/images/Projects/SelfStorage/PortlandJohnsonCreek/johnson_creek_0019_hw1vyt.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639608483/images/Projects/SelfStorage/PortlandJohnsonCreek/johnson_creek_0014_kcqtij.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639608483/images/Projects/SelfStorage/PortlandJohnsonCreek/johnson_creek_0041_p1bjp9.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639608582/images/Projects/SelfStorage/PortlandJohnsonCreek/johnson_creek_0046_yngo3s.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "91,648"
+    },
+    {
+      "type": "units",
+      "text": "741"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2018"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Portland, OR"
+    }
+  ]
+}

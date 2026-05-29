@@ -1,0 +1,28 @@
+{
+  "heroSlides": [
+    {
+      "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740439413/images/Projects/TheCharles2/The_Charles_GR_MR_1_of_104_wx1v8k_rpr6nu.jpg",
+      "label": "Multi-Family"
+    },
+    {
+      "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174545/images/Projects/LeMeridian2/MER_SLCLD_EXTERIOR_DAY-5_hyq2my.jpg",
+      "label": "Hospitality"
+    },
+    {
+      "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767827724/images/Projects/Solhavn/09-DJI_20250716092432_0416_D_pepkcz.jpg",
+      "label": "Multi-Family"
+    }
+  ],
+  "statCallouts": [
+    {
+      "number": "3547",
+      "label": "Apartment Units",
+      "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829998/images/Projects/AF860/Arza_Aerial_Night_Lights_iuxcsa.jpg"
+    },
+    {
+      "number": "5.7",
+      "label": "Million Industrial Square Feet",
+      "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897377/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_Medium_Angle_ubeg69.jpg"
+    }
+  ]
+}

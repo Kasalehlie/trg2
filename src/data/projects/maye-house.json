@@ -1,0 +1,39 @@
+{
+  "id": "27",
+  "title": "Maye House",
+  "order": 9,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828699/images/Projects/SouthTemple/Exterior_View_at_Maye_House_FULL_zkivkm.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828699/images/Projects/SouthTemple/Exterior_View_at_Maye_House_FULL_zkivkm.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828829/images/Projects/SouthTemple/Wasatch_Maye_House_15_ir9lvq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828981/images/Projects/SouthTemple/Wasatch_Maye_House_23_1_v3cmdb.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828790/images/Projects/SouthTemple/Resident_Hangout_at_Maye_House_FULL_xidxq0.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767828812/images/Projects/SouthTemple/Wasatch_Maye_House_11_rattew.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829305/images/Projects/SouthTemple/Maye_House_2_Bedroom_Dining_Area_and_Kitchen_FULL_am3aa0.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829342/images/Projects/SouthTemple/Kitchen_into_Living_Room_at_Maye_House_FULL_w0lwag.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "121"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2025"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Remodel + Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

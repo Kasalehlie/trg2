@@ -1,0 +1,41 @@
+{
+  "id": "5",
+  "title": "XR International I",
+  "order": 13,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391095/images/Projects/XR1/IMG_5595_e6psd9.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391095/images/Projects/XR1/Side_-_East_View_btltfc.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391095/images/Projects/XR1/Interior_2_b3sbrx.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391095/images/Projects/XR1/Loading_Docs_lnfnzv.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810298/images/Projects/XR1/XR3-inside6_eo7a09.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810298/images/Projects/XR1/XR3-inside4-jpg_as5zrn.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810298/images/Projects/XR1/XR3-inside5_l4kdl7.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810298/images/Projects/XR1/XR3-inside1_ordnxm.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810298/images/Projects/XR1/XR3-inside2_hvhde4.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638810298/images/Projects/XR1/XR3-inside3_evwpq6.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "456,000"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2019"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Cross Dock"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

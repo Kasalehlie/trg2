@@ -1,0 +1,42 @@
+{
+  "id": "18",
+  "title": "Portland and Division",
+  "order": 22,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418260/images/Projects/SelfStorage/PortlandDivision/extra_space_division_005_klgdus.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418253/images/Projects/SelfStorage/PortlandDivision/extra_space_division_013_vjilmo.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418262/images/Projects/SelfStorage/PortlandDivision/extra_space_division_061_blbqqp.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418261/images/Projects/SelfStorage/PortlandDivision/extra_space_division_027_avg1pu.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418258/images/Projects/SelfStorage/PortlandDivision/extra_space_division_072_q8rey6.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418047/images/Projects/SelfStorage/PortlandDivision/Division_-1_rb0pts.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418250/images/Projects/SelfStorage/PortlandDivision/extra_space_division_071_bmwokl.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "110,905"
+    },
+    {
+      "type": "units",
+      "text": "851"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2017"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Portland, OR"
+    }
+  ]
+}

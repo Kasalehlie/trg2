@@ -1,0 +1,38 @@
+{
+  "id": "2",
+  "title": "Element by Westin",
+  "order": 2,
+  "featured": false,
+  "category": "hospitality",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174297/images/Projects/ElementWestin/ELM_SICEL_EXTERIOR_DAY_zoklyb.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174297/images/Projects/ElementWestin/ELM_SICEL_EXTERIOR_DAY_zoklyb.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174299/images/Projects/ElementWestin/ELM_SICEL_Lobby_uhkcme.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174306/images/Projects/ElementWestin/ELM_SICEL_Studio_Common_Overall-_ljmeg8.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174300/images/Projects/ElementWestin/ELM_SICEL_QQAH_Bedroom_hkes3s.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174302/images/Projects/ElementWestin/ELM_SICEL_QSAH_Kitchen_n82sfq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174298/images/Projects/ElementWestin/ELM_SICEL_Fitness-2_ue0i5d.jpg"
+  ],
+  "stats": [
+    {
+      "type": "keys",
+      "text": "126"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2023"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Extended Stay"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

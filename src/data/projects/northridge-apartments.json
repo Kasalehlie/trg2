@@ -1,0 +1,41 @@
+{
+  "id": "11",
+  "title": "Northridge Apartments",
+  "order": 17,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466354/images/Projects/NorthridgeApts/NR1_s6a559.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466354/images/Projects/NorthridgeApts/NR1_s6a559.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466353/images/Projects/NorthridgeApts/NR2_irmtat.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466353/images/Projects/NorthridgeApts/NR3_czgdoa.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466352/images/Projects/NorthridgeApts/NR6_k83ezn.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466352/images/Projects/NorthridgeApts/NR7_zybsbb.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466352/images/Projects/NorthridgeApts/NR5_xni12w.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466352/images/Projects/NorthridgeApts/NR8_jf9ufn.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466352/images/Projects/NorthridgeApts/NR4_ic9hao.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638466351/images/Projects/NorthridgeApts/NORTHRIDGE_logo_f5inyr.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "100"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2021"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Value Add Remodel"
+    },
+    {
+      "type": "location",
+      "text": "Weber County, UT"
+    }
+  ]
+}

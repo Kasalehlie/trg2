@@ -1,0 +1,38 @@
+{
+  "id": "32",
+  "title": "GLH Building I",
+  "order": 3,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897363/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_High_Angle_ivprej.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897363/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_High_Angle_ivprej.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897384/images/Projects/GLH%20Building%20I/Aerial_Storefront_and_Dock_View_xa9lxn.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767988321/images/Projects/GLH%20Building%20I/Exterior_Dock_Doors-WEBSITE_q93amq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897391/images/Projects/GLH%20Building%20I/Storefront_hvebnl.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767988329/images/Projects/GLH%20Building%20I/Interior_Dock_Doors-WEBSITE_dykokj.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767897377/images/Projects/GLH%20Building%20I/Aerial_Mountain_Backdrop_Medium_Angle_ubeg69.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "502,082"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2026"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Cross Dock"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "13",
+  "title": "The Charles",
+  "order": 0,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740439413/images/Projects/TheCharles2/The_Charles_GR_MR_1_of_104_wx1v8k_rpr6nu.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740439413/images/Projects/TheCharles2/The_Charles_GR_MR_1_of_104_wx1v8k_rpr6nu.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174715/images/Projects/TheCharles2/The_Charles_GR_MR_2_of_104_sqtszo.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174723/images/Projects/TheCharles2/The_Charles_GR_MR_49_of_104_gu6flk.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174722/images/Projects/TheCharles2/The_Charles_GR_MR_28_of_104_kq3f2p.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174717/images/Projects/TheCharles2/The_Charles_GR_MR_7_of_104_ldenjd.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174726/images/Projects/TheCharles2/The_Charles_GR_MR_72_of_104_pojghx.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174728/images/Projects/TheCharles2/The_Charles_GR_MR_94_of_104_a2xozd.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174720/images/Projects/TheCharles2/The_Charles_GR_MR_22_of_104_ad9krm.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174725/images/Projects/TheCharles2/The_Charles_GR_MR_63_of_104_gtrp6i.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "240"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2022"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

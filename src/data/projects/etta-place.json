@@ -1,0 +1,33 @@
+{
+  "id": "28",
+  "title": "Etta Place",
+  "order": 8,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740438549/images/Projects/HeberApts/Heber_NWCorner_ph6u45.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740438549/images/Projects/HeberApts/Heber_NWCorner_ph6u45.jpg"
+  ],
+  "stats": [
+    {
+      "type": "keys",
+      "text": "270"
+    },
+    {
+      "type": "yearStarted",
+      "text": "2025"
+    },
+    {
+      "type": "status",
+      "text": "Under Construction"
+    },
+    {
+      "type": "projectType",
+      "text": "Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "Heber City, UT"
+    }
+  ]
+}

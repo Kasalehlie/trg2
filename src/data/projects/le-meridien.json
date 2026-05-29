@@ -1,0 +1,46 @@
+{
+  "id": "3",
+  "title": "Le Meridien",
+  "order": 1,
+  "featured": false,
+  "category": "hospitality",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174545/images/Projects/LeMeridian2/MER_SLCLD_EXTERIOR_DAY-5_hyq2my.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174545/images/Projects/LeMeridian2/MER_SLCLD_EXTERIOR_DAY-5_hyq2my.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174547/images/Projects/LeMeridian2/MER_SLCLD_front_desk-2_gzkhkh.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174551/images/Projects/LeMeridian2/MER_SLCLD_Library-2_yhqtsj.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174554/images/Projects/LeMeridian2/MER_SLCLD_Lobby_Fireplace_ezd6ce.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174544/images/Projects/LeMeridian2/MER_SLCLD_Adelaide_overall_ujlxx2.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174561/images/Projects/LeMeridian2/MER_SLCLD_Van_Ryder_Bar_kbzesh.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174562/images/Projects/LeMeridian2/MER_SLCLD_Van_Ryder_Foyer_a83ws9.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174555/images/Projects/LeMeridian2/MER_SLCLD_pool_qdptle.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174541/images/Projects/LeMeridian2/HAM_20230320_143333_dhp-Edit-Edit-2_ybk9iu.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174542/images/Projects/LeMeridian2/HAM_20230320_155758_dhp-Edit_w2tyor.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174540/images/Projects/LeMeridian2/HAM_20230320_104815-Edit_qbfvjx.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174552/images/Projects/LeMeridian2/MER_SLCLD_lobby_detail-2_tr7zhs.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174559/images/Projects/LeMeridian2/MER_SLCLD_STAH_Bedroom-2_fpft6l.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740174557/images/Projects/LeMeridian2/MER_SLCLD_QNQN_Shower_f9iisx.jpg"
+  ],
+  "stats": [
+    {
+      "type": "keys",
+      "text": "144"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2023"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Full Service"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

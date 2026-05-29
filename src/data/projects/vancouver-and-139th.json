@@ -1,0 +1,41 @@
+{
+  "id": "25",
+  "title": "Vancouver and 139th",
+  "order": 29,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612859/images/Projects/SelfStorage/Vancouver139/get_space_v139_003_lxmlfi.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612860/images/Projects/SelfStorage/Vancouver139/get_space_v139_002_ksu2w1.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612860/images/Projects/SelfStorage/Vancouver139/get_space_v139_010_l1jsmk.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612860/images/Projects/SelfStorage/Vancouver139/get_space_v139_006_mi2baz.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612859/images/Projects/SelfStorage/Vancouver139/get_space_v139_011_yg5yqv.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612859/images/Projects/SelfStorage/Vancouver139/get_space_v139_015_yspxdx.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "76,400"
+    },
+    {
+      "type": "units",
+      "text": "570"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2016"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Vancouver, WA"
+    }
+  ]
+}

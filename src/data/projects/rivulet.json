@@ -1,0 +1,46 @@
+{
+  "id": "12",
+  "title": "Rivulet",
+  "order": 15,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_uj0jez.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_uj0jez.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767990171/images/Projects/Rivulet/Aerial_View_of_Rivulet_1_tzxazx.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740421859/images/Projects/Rivulet/Aerial_View_of_Amenities_at_Rivulet_ikleo0.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_6_vwny5n.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_5_rm4ob0.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_4_i7qgzs.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_3_tkneoa.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464365/images/Projects/Rivulet/Rivulet_2_fymlif.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464364/images/Projects/Rivulet/_LLC3392_WEB_j8m1sr.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464364/images/Projects/Rivulet/_LLC3241_WEB_zidllg.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464364/images/Projects/Rivulet/_LLC3361_WEB_bpevxl.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464364/images/Projects/Rivulet/_LLC0674_WEB_wqf6bs.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464364/images/Projects/Rivulet/_LLC0713_WEB_lrccjr.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638464364/images/Projects/Rivulet/_LLC3349_WEB_zlv5l7.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "252"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2018"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "American Fork, UT"
+    }
+  ]
+}

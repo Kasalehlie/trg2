@@ -1,0 +1,42 @@
+{
+  "id": "16",
+  "title": "Portland and 82nd",
+  "order": 20,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391617/images/Projects/SelfStorage/P82/extra_space_SE_82nd_003_vxfnwv.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391616/images/Projects/SelfStorage/P82/extra_space_SE_82nd_006_a0xpw4.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417462/images/Projects/SelfStorage/P82/extra_space_SE_82nd_077_fh8blz.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417414/images/Projects/SelfStorage/P82/extra_space_SE_82nd_035_npz01h.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391619/images/Projects/SelfStorage/P82/extra_space_SE_82nd_022_hyfmcq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391619/images/Projects/SelfStorage/P82/extra_space_SE_82nd_050_cj10pd.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638391617/images/Projects/SelfStorage/P82/extra_space_SE_82nd_008_dvo8w6.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "88,566"
+    },
+    {
+      "type": "units",
+      "text": "727"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2019"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Portland, OR"
+    }
+  ]
+}

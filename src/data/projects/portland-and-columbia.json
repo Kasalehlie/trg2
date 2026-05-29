@@ -1,0 +1,41 @@
+{
+  "id": "17",
+  "title": "Portland and Columbia",
+  "order": 21,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417848/images/Projects/SelfStorage/PortlandColumbia/extra_space_columbia_001_xo2cgg.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417849/images/Projects/SelfStorage/PortlandColumbia/extra_space_columbia_019_r0jxnj.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417849/images/Projects/SelfStorage/PortlandColumbia/extra_space_columbia_008_dss6ws.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417848/images/Projects/SelfStorage/PortlandColumbia/extra_space_columbia_031_ezx6ux.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638418013/images/Projects/SelfStorage/PortlandColumbia/extra_space_columbia_0101_ji9xq3.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417848/images/Projects/SelfStorage/PortlandColumbia/extra_space_columbia_024_uvtiwj.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "106,125"
+    },
+    {
+      "type": "units",
+      "text": "794"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2017"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Portland, OR"
+    }
+  ]
+}

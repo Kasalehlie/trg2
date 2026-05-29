@@ -1,0 +1,42 @@
+{
+  "id": "20",
+  "title": "Portland and York",
+  "order": 24,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609080/images/Projects/SelfStorage/PortlandandYork/york_st_0025_ha8o7c.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639608875/images/Projects/SelfStorage/PortlandandYork/York_-_3_qcfe3r.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639608875/images/Projects/SelfStorage/PortlandandYork/York_-_1_udhgvq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609081/images/Projects/SelfStorage/PortlandandYork/york_st_0005_nj4d78.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609080/images/Projects/SelfStorage/PortlandandYork/york_st_0002_pa8o20.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609079/images/Projects/SelfStorage/PortlandandYork/york_st_0043_jyq5y0.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609079/images/Projects/SelfStorage/PortlandandYork/york_st_0023_ggy6fn.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "114,000"
+    },
+    {
+      "type": "units",
+      "text": "895"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2018"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Portland, OR"
+    }
+  ]
+}

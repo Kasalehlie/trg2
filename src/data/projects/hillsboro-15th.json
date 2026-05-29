@@ -1,0 +1,39 @@
+{
+  "id": "23",
+  "title": "Hillsboro & 15th",
+  "order": 27,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417358/images/Projects/SelfStorage/Hillsboro/get_space_H15_010_qawptd.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417348/images/Projects/SelfStorage/Hillsboro/get_space_H15_001_qnytfh.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417362/images/Projects/SelfStorage/Hillsboro/get_space_H15_002_vu7u4k.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638417348/images/Projects/SelfStorage/Hillsboro/get_space_H15_012_claylq.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "77,700"
+    },
+    {
+      "type": "units",
+      "text": "603"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2015"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Hillsboro, OR"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "10",
+  "title": "The Arden",
+  "order": 11,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432389/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_006_avcbhx.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432389/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_006_avcbhx.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432174/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_010_iipoqj.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432454/images/Projects/TheArden2/The_Arden_2024_Drone_Aerials_016_hyqrkp.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432231/images/Projects/TheArden2/The_Arden_2024_Interiors_112_umxp6s.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432248/images/Projects/TheArden2/The_Arden_2024_Interiors_124_s1m4m8.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740432269/images/Projects/TheArden2/The_Arden_2024_Interiors_200_z6py4y.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1743021713/images/Projects/TheArden2/The_Arden_2024_Interiors_500_m1oaap.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1743021911/images/Projects/TheArden2/The_Arden_2024_Interiors_524_scbsl6.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1743021922/images/Projects/TheArden2/The_Arden_2024_Interiors_548_qo09od.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "240"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2024"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}

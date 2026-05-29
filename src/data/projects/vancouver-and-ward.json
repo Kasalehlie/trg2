@@ -1,0 +1,42 @@
+{
+  "id": "21",
+  "title": "Vancouver and Ward",
+  "order": 25,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609623/images/Projects/SelfStorage/VancouverandWard/Get_Space_VWAR_001_qwiuph.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609623/images/Projects/SelfStorage/VancouverandWard/Get_Space_VWAR_006_wapjgr.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609624/images/Projects/SelfStorage/VancouverandWard/Get_Space_VWAR_007_zlqfnh.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609623/images/Projects/SelfStorage/VancouverandWard/Get_Space_VWAR_029_fjisul.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609623/images/Projects/SelfStorage/VancouverandWard/Get_Space_VWAR_025_ncwhms.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609623/images/Projects/SelfStorage/VancouverandWard/Get_Space_VWAR_008_ckztgl.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639609623/images/Projects/SelfStorage/VancouverandWard/Get_Space_VWAR_013_ebuvws.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "78,157"
+    },
+    {
+      "type": "units",
+      "text": "567"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2018"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Vancouver, WA"
+    }
+  ]
+}

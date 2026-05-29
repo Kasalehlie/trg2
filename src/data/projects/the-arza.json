@@ -1,0 +1,35 @@
+{
+  "id": "7",
+  "title": "The Arza",
+  "order": 12,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829998/images/Projects/AF860/Arza_Aerial_Night_Lights_iuxcsa.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829998/images/Projects/AF860/Arza_Aerial_Night_Lights_iuxcsa.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829986/images/Projects/AF860/Arza_Aerial_Dusk_Mountains_gmsznf.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767829976/images/Projects/AF860/Arza_Aerial_Dusk_Head_On_ik1lne.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "512"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2025"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "American Fork, UT"
+    }
+  ]
+}

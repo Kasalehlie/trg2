@@ -1,0 +1,38 @@
+{
+  "id": "6",
+  "title": "Nantucket Self-Storage",
+  "order": 19,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638465680/images/Projects/Nantucket/Screen_Shot_2019-12-31_at_7.54.04_AM_zmuzys.png",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638465680/images/Projects/Nantucket/Screen_Shot_2019-12-31_at_7.54.04_AM_zmuzys.png",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638465680/images/Projects/Nantucket/Screen_Shot_2019-12-31_at_7.54.13_AM_fugcrz.png",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638465680/images/Projects/Nantucket/Screen_Shot_2019-12-31_at_7.51.18_AM_sriwcx.png",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638465680/images/Projects/Nantucket/Screen_Shot_2019-12-31_at_7.52.51_AM_bgkadt.png",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638465679/images/Projects/Nantucket/IMG_20180816_111208_r9wwi5.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1638390276/images/Projects/Nantucket/Nantucket_droneShot_ddlnlq.png"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "105,428"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2018"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Nantucket, MA"
+    }
+  ]
+}

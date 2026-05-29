@@ -1,0 +1,43 @@
+{
+  "id": "8",
+  "title": "Solhavn",
+  "order": 4,
+  "featured": false,
+  "category": "multi-family",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767827724/images/Projects/Solhavn/09-DJI_20250716092432_0416_D_pepkcz.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767827724/images/Projects/Solhavn/09-DJI_20250716092432_0416_D_pepkcz.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767826746/images/Projects/Solhavn/10-DJI_20250716092649_0418_D_1_tpl75k.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158724/images/Projects/Solhavn/DJI_0982_nckzkp.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158707/images/Projects/Solhavn/DJI_0976-1_rxmkne.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767826625/images/Projects/Solhavn/12-DJI_20250716092815_0422_D_wgduxs.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1767826683/images/Projects/Solhavn/05-DSC5891_lbd330.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158791/images/Projects/Solhavn/DJI_0440-r1_lp2yxl.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740158994/images/Projects/Solhavn/_DSC8275_gyrnmt.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159082/images/Projects/Solhavn/_DSC8146_ivstzw.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159088/images/Projects/Solhavn/_DSC8170_evvkct.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1740159039/images/Projects/Solhavn/_DSC8179_y1ibkv.jpg"
+  ],
+  "stats": [
+    {
+      "type": "units",
+      "text": "352"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2025"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Ground Up"
+    },
+    {
+      "type": "location",
+      "text": "American Fork, UT"
+    }
+  ]
+}

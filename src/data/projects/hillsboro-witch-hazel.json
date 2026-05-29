@@ -1,0 +1,39 @@
+{
+  "id": "26",
+  "title": "Hillsboro & Witch Hazel",
+  "order": 30,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612272/images/Projects/SelfStorage/HillsboroandWitchHazel/get_space_H73_004_ldrplh.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612272/images/Projects/SelfStorage/HillsboroandWitchHazel/IMG_20180205_125025_sipgat.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612272/images/Projects/SelfStorage/HillsboroandWitchHazel/get_space_H73_009_tbpcma.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639612272/images/Projects/SelfStorage/HillsboroandWitchHazel/IMG_20180205_122152_yjji6r.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "59,600"
+    },
+    {
+      "type": "units",
+      "text": "445"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2017"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Hillsboro OR"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "24",
+  "title": "Portland and Broadway",
+  "order": 28,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639613141/images/Projects/SelfStorage/PortlandandBroadway/broadway_001_uvklut.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639613141/images/Projects/SelfStorage/PortlandandBroadway/20160830_110013_e5ginb.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639613141/images/Projects/SelfStorage/PortlandandBroadway/20160831_112847_dgqkip.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639613141/images/Projects/SelfStorage/PortlandandBroadway/broadway_028_vk4ziq.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639613140/images/Projects/SelfStorage/PortlandandBroadway/broadway_005_f8e53y.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639613140/images/Projects/SelfStorage/PortlandandBroadway/broadway_019_nsxkoi.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "64,900"
+    },
+    {
+      "type": "units",
+      "text": "512"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2016"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Portland, OR"
+    }
+  ]
+}

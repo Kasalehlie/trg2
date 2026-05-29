@@ -1,0 +1,42 @@
+{
+  "id": "22",
+  "title": "Hillsboro & 73rd",
+  "order": 26,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639611797/images/Projects/SelfStorage/Hillsboro73/get_space_H73_004_ybkwee.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639611796/images/Projects/SelfStorage/Hillsboro73/get_space_H73_007_aknmm0.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639611798/images/Projects/SelfStorage/Hillsboro73/get_space_H73_001_rizhiw.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639611796/images/Projects/SelfStorage/Hillsboro73/get_space_H73_005_bqub1j.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639611796/images/Projects/SelfStorage/Hillsboro73/get_space_H73_007_aknmm0.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639611795/images/Projects/SelfStorage/Hillsboro73/get_space_H73_010_qamx7g.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1639611795/images/Projects/SelfStorage/Hillsboro73/get_space_H73_003_ytpubx.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "33,800"
+    },
+    {
+      "type": "units",
+      "text": "285"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2015"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Self-Storage"
+    },
+    {
+      "type": "location",
+      "text": "Hillsboro, OR"
+    }
+  ]
+}

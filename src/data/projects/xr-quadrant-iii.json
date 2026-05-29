@@ -1,0 +1,37 @@
+{
+  "id": "31",
+  "title": "XR Quadrant III",
+  "order": 5,
+  "featured": false,
+  "category": "industrial",
+  "image": "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648507/images/Projects/Quadrant3/QIII_Exterior_Length_dob24u.jpg",
+  "carousel": [
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648507/images/Projects/Quadrant3/QIII_Exterior_Length_dob24u.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648506/images/Projects/Quadrant3/QIII_Aerial_-_Finished_rwk7po.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648721/images/Projects/Quadrant3/Interior_Main_Entrance_Website_eijsjn.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648799/images/Projects/Quadrant3/Interior_Vastness_Website_uh7d4k.jpg",
+    "https://res.cloudinary.com/dgjw3jwe3/image/upload/q_auto,f_auto/v1772648717/images/Projects/Quadrant3/Interior_Dock_Doors_Area_Website_jyr2ae.jpg"
+  ],
+  "stats": [
+    {
+      "type": "squareFeet",
+      "text": "1,161,600"
+    },
+    {
+      "type": "yearCompleted",
+      "text": "2025"
+    },
+    {
+      "type": "status",
+      "text": "Completed"
+    },
+    {
+      "type": "projectType",
+      "text": "Cross Dock"
+    },
+    {
+      "type": "location",
+      "text": "Salt Lake City, UT"
+    }
+  ]
+}
