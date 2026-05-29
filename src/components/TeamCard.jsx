@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline/esm/index";
+import { toParagraphs } from "../utils/contentHelpers.js";
 
-export default function TeamCard({ name, headshot, title, biop1, biop2, biop3, biop4, linkedin }) {
+export default function TeamCard({ name, headshot, title, bio, linkedin }) {
   let [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -70,10 +71,9 @@ export default function TeamCard({ name, headshot, title, biop1, biop2, biop3, b
               <br />
               <p className="mb-2 text-2xl font-bold">{title}</p>
               <div className="overflow-y-scroll">
-                <p className="text-2xl mb-4">{biop1}</p>
-                <p className="text-2xl mb-4">{biop2}</p>
-                <p className="text-2xl mb-4">{biop3}</p>
-                <p className="text-2xl">{biop4}</p>
+                {toParagraphs(bio).map((p, i) => (
+                  <p key={i} className="text-2xl mb-4">{p}</p>
+                ))}
               </div>
             </aside>
           </div>

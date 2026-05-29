@@ -1,36 +1,31 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import TeamCard from "../components/TeamCard.jsx";
-import team from "../data/team.json";
+import { team } from "../utils/content.js";
+import { toParagraphs } from "../utils/contentHelpers.js";
+import about from "../data/about.json";
 ---
 
 <MainLayout>
   <div class="px-4 max-w-5xl 2xl:max-w-7xl mx-auto py-8">
     <h1 class="text-5xl font-bold mb-2">About Us</h1>
     <div class="px-10 max-w-7xl mx-auto py-16">
-      <h2 class="text-xl">
-        The Ritchie Group (TRG) is a second-generation family office, based in
-        Salt Lake City, Utah, that has owned and developed real estate for over
-        40 years. TRG’s primary focus is on multifamily, self-storage,
-        industrial, and hospitality real estate development projects. TRG has a
-        development queue of 3400+ multifamily units, 400+ keys of hospitality,
-        and 4.4M SF of industrial warehouse at various stages of design and
-        development.
-      </h2>
+      <div class="text-xl">
+        {toParagraphs(about.aboutText).map((p) => (
+          <p class="mb-4">{p}</p>
+        ))}
+      </div>
     </div>
     <h1 class="text-5xl font-bold mb-2">Meet The Team</h1>
     <br />
     <div class="grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-4 gap-4 mb-4">
-      {team.map((team) => (
+      {team.map((member) => (
         <TeamCard
-          name={team.name}
-          headshot={team.headshot}
-          title={team.title}
-          biop1={team.biop1}
-          biop2={team.biop2}
-          biop3={team.biop3}
-          biop4={team.biop4}
-          linkedin={team.linkedin}
+          name={member.name}
+          headshot={member.headshot}
+          title={member.title}
+          bio={member.bio}
+          linkedin={member.linkedin}
           client:load
         />
       ))}
