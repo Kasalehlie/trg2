@@ -1,23 +1,8 @@
 ---
-// Component Imports
-import Tour from "../components/Tour.astro";
-import ProjectSection from "../components/ProjectSection.jsx";
-// You can import components from any supported Framework here!
-/* ASTRO:COMPONENT_IMPORTS */
-
-// Component Script:
-// You can write any JavaScript/TypeScript that you'd like here.
-// It will run during the build, but never in the browser.
-// All variables are available to use in the HTML template below.
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 import MainLayout from "../layouts/MainLayout.astro";
 import Hero from "../components/Hero.jsx";
-import Testimonials from "../components/Testimonials.astro";
-import NewsCard from "../components/NewsCard.astro";
-import ProjectCard from "../components/ProjectCard.astro";
 import StatsSection from "../components/StatsSection.jsx";
+import ProjectSection from "../components/ProjectSection.jsx";
 import BlogSection from "../components/BlogSection.jsx";
 import { news, formatNewsDate } from "../utils/content.js";
 ---
@@ -45,7 +30,6 @@ import { news, formatNewsDate } from "../utils/content.js";
               author={article.author}
               date={formatNewsDate(article.date)}
               datetime={article.date}
-              client:load
             />
           ))}
       </div>

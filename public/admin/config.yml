@@ -1,3 +1,8 @@
+# DEPLOY-TIME VALUES — the CMS will not work until these three are filled in:
+#   base_url     -> the live site origin (e.g. https://theritchiegroup.com)
+#   api_key      -> Cloudinary API key (public-safe; from Cloudinary dashboard)
+#   upload_preset-> the unsigned Cloudinary upload preset name
+# (OAUTH_GITHUB_CLIENT_ID / _SECRET live in Netlify env vars, never here.)
 backend:
   name: github
   repo: Kasalehlie/trg2
@@ -100,6 +105,8 @@ collections:
           - name: statCallouts
             label: Stat callouts
             widget: list
+            min: 2
+            max: 2
             fields:
               - { name: number, label: Number, widget: string }
               - { name: label, label: Label, widget: string }
