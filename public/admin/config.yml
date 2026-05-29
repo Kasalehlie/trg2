@@ -1,0 +1,111 @@
+backend:
+  name: github
+  repo: Kasalehlie/trg2
+  branch: main
+  base_url: https://REPLACE_WITH_SITE_DOMAIN
+  auth_endpoint: /.netlify/functions/auth
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dgjw3jwe3
+    api_key: "REPLACE_WITH_CLOUDINARY_API_KEY"
+    upload_preset: REPLACE_WITH_UPLOAD_PRESET
+
+collections:
+  - name: projects
+    label: Projects
+    folder: src/data/projects
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    fields:
+      - { name: id, label: ID, widget: hidden, default: "{{slug}}" }
+      - { name: title, label: Title, widget: string }
+      - { name: order, label: Display order, widget: number, value_type: int, default: 999 }
+      - { name: featured, label: Feature on homepage, widget: boolean, default: false }
+      - name: category
+        label: Category
+        widget: select
+        options: ["multi-family", "hospitality", "industrial", "mixed-use"]
+      - { name: image, label: Main image, widget: image }
+      - { name: carousel, label: Gallery images, widget: list, field: { name: image, label: Image, widget: image } }
+      - name: stats
+        label: Stats
+        widget: list
+        fields:
+          - name: type
+            label: Stat type
+            widget: select
+            options:
+              - { label: Units, value: units }
+              - { label: Keys, value: keys }
+              - { label: Square Feet, value: squareFeet }
+              - { label: Year Completed, value: yearCompleted }
+              - { label: Year Started, value: yearStarted }
+              - { label: Status, value: status }
+              - { label: Type, value: projectType }
+              - { label: Location, value: location }
+          - { name: text, label: Value, widget: string }
+
+  - name: news
+    label: News
+    folder: src/data/news
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: link, label: Link (article URL), widget: string }
+      - { name: type, label: Type, widget: select, options: ["Article", "Video"] }
+      - { name: description, label: Description, widget: text }
+      - { name: image, label: Image, widget: image }
+      - { name: author, label: Author, widget: string }
+      - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+
+  - name: team
+    label: Team
+    folder: src/data/team
+    create: true
+    slug: "{{slug}}"
+    extension: json
+    format: json
+    identifier_field: name
+    fields:
+      - { name: name, label: Name, widget: string }
+      - { name: title, label: Title, widget: string }
+      - { name: headshot, label: Headshot, widget: image }
+      - { name: linkedin, label: LinkedIn URL, widget: string, required: false }
+      - { name: order, label: Display order, widget: number, value_type: int, default: 999 }
+      - { name: bio, label: Bio, widget: text, hint: "Separate paragraphs with a blank line." }
+
+  - name: singletons
+    label: Site Content
+    files:
+      - name: homepage
+        label: Homepage
+        file: src/data/homepage.json
+        fields:
+          - name: heroSlides
+            label: Hero slides
+            widget: list
+            max: 3
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: label, label: Label, widget: string }
+          - name: statCallouts
+            label: Stat callouts
+            widget: list
+            fields:
+              - { name: number, label: Number, widget: string }
+              - { name: label, label: Label, widget: string }
+              - { name: image, label: Image, widget: image }
+      - name: about
+        label: About Us
+        file: src/data/about.json
+        fields:
+          - { name: aboutText, label: About paragraph, widget: text, hint: "Separate paragraphs with a blank line." }
