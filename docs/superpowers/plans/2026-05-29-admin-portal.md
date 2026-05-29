@@ -1268,7 +1268,9 @@ git commit -am "chore: pre-CMS verification cleanup" || echo "nothing to commit"
 > Manual prerequisites for this phase (done by the site owner, recorded here):
 > - **GitHub OAuth App** (github.com → Settings → Developer settings → OAuth Apps → New): Homepage URL = the site URL; Authorization callback URL = `https://<SITE>/.netlify/functions/callback`. Copy the Client ID and generate a Client Secret.
 > - In Netlify → Site settings → Environment variables, add `OAUTH_GITHUB_CLIENT_ID` and `OAUTH_GITHUB_CLIENT_SECRET`.
-> - Add the shared **TRG Editor** GitHub account as a collaborator on `Kasalehlie/trg2`.
+> - **Least-privilege editor account:** the shared **TRG Editor** GitHub account should be a *dedicated* account that is a collaborator on `Kasalehlie/trg2` **and nothing else** (so its token, even at repo scope, can't reach other repos). Add it as a collaborator on `Kasalehlie/trg2`.
+> - **OAuth scope:** the repo is **public**, so the functions request the narrower **`public_repo`** scope. If the repo is ever made private, change `scope=public_repo` → `scope=repo` in `auth.mjs` (a public-repo token cannot write to a private repo).
+> - **Repo visibility note:** `trg2` is a *fork*; GitHub won't toggle a fork to private directly — going private means duplicating into a new private repo and repointing Netlify + `config.yml`. If you intend to do that, do it **before** this phase to avoid rewiring.
 > - **Cloudinary** (cloud `dgjw3jwe3`): create an unsigned upload preset; note its name; add the site domain + `localhost` to Allowed origins. Have the Cloudinary **API key** ready.
 
 ### Task 14: Netlify build + functions config
@@ -1300,28 +1302,71 @@ git commit -m "chore: netlify build + functions config"
 **Files:**
 - Create: `netlify/functions/auth.mjs`, `netlify/functions/callback.mjs`
 
-- [ ] **Step 1: Create `auth.mjs` (redirects the editor to GitHub)**
+- [ ] **Step 1: Create `auth.mjs` (redirects to GitHub with a CSRF `state`)**
+
+Scope is `public_repo` because the repo is public (switch to `repo` only if it goes private — see Phase-4 prerequisites).
 
 ```js
+import crypto from "node:crypto";
+
 export async function handler(event) {
   const clientId = process.env.OAUTH_GITHUB_CLIENT_ID;
   const host = event.headers.host;
   const redirectUri = `https://${host}/.netlify/functions/callback`;
+  const state = crypto.randomUUID();
   const url =
     `https://github.com/login/oauth/authorize` +
     `?client_id=${clientId}` +
     `&redirect_uri=${encodeURIComponent(redirectUri)}` +
-    `&scope=repo`;
-  return { statusCode: 302, headers: { Location: url }, body: "" };
+    `&scope=public_repo` +
+    `&state=${state}`;
+  return {
+    statusCode: 302,
+    headers: {
+      Location: url,
+      "Set-Cookie": `oauth_state=${state}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=600`,
+    },
+    body: "",
+  };
 }
 ```
 
-- [ ] **Step 2: Create `callback.mjs` (exchanges the code, posts the token to the CMS)**
+- [ ] **Step 2: Create `callback.mjs` (verifies `state`, exchanges code, posts token to the CMS origin)**
 
 ```js
+function resultPage(status, payload, targetOrigin) {
+  const body = `<!doctype html><html><body><script>
+    (function() {
+      function send(msg) { window.opener && window.opener.postMessage(msg, ${JSON.stringify(targetOrigin)}); }
+      window.addEventListener("message", function() {
+        send('authorization:github:${status}:${JSON.stringify(payload)}');
+      }, { once: true });
+      send("authorizing:github");
+    })();
+  </script></body></html>`;
+  return {
+    statusCode: 200,
+    headers: {
+      "Content-Type": "text/html",
+      // Clear the state cookie now that the flow is complete.
+      "Set-Cookie": "oauth_state=; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0",
+    },
+    body,
+  };
+}
+
 export async function handler(event) {
-  const code = new URLSearchParams(event.rawQuery || event.queryStringParameters?.code ? event.rawQuery : "").get?.("code")
-    || event.queryStringParameters?.code;
+  const params = event.queryStringParameters || {};
+  const code = params.code;
+  const returnedState = params.state;
+  const cookie = event.headers.cookie || "";
+  const savedState = (cookie.match(/(?:^|;\s*)oauth_state=([^;]+)/) || [])[1];
+  const siteOrigin = `https://${event.headers.host}`;
+
+  // CSRF check: state must be present and match the cookie set by auth.mjs.
+  if (!code || !returnedState || !savedState || returnedState !== savedState) {
+    return resultPage("error", { error: "invalid_state" }, siteOrigin);
+  }
 
   const res = await fetch("https://github.com/login/oauth/access_token", {
     method: "POST",
@@ -1334,24 +1379,14 @@ export async function handler(event) {
   });
   const data = await res.json();
 
-  const status = data.access_token ? "success" : "error";
-  const payload = data.access_token
-    ? { token: data.access_token, provider: "github" }
-    : { error: data.error || "unknown" };
-
-  const body = `<!doctype html><html><body><script>
-    (function() {
-      function send(msg) { window.opener && window.opener.postMessage(msg, "*"); }
-      window.addEventListener("message", function() {
-        send('authorization:github:${status}:${JSON.stringify(payload)}');
-      }, { once: true });
-      send("authorizing:github");
-    })();
-  </script></body></html>`;
-
-  return { statusCode: 200, headers: { "Content-Type": "text/html" }, body };
+  if (!data.access_token) {
+    return resultPage("error", { error: data.error || "unknown" }, siteOrigin);
+  }
+  return resultPage("success", { token: data.access_token, provider: "github" }, siteOrigin);
 }
 ```
+
+Note: the token is never logged; `client_secret` is read only from the Netlify env var.
 
 - [ ] **Step 3: Commit**
 
@@ -1365,7 +1400,21 @@ git commit -m "feat: GitHub OAuth handler for the CMS (Netlify functions)"
 **Files:**
 - Create: `public/admin/index.html`, `public/admin/config.yml`
 
-- [ ] **Step 1: Create `public/admin/index.html`**
+- [ ] **Step 1: Self-host a pinned Sveltia bundle (no third-party CDN at runtime)**
+
+The admin page handles a GitHub token, so it must not load executable code from an unpinned CDN. Download a specific released version into `public/admin/` so it is served from our own origin and survives even if the CDN is down.
+
+Run (replace `X.Y.Z` with the latest released version from https://github.com/sveltia/sveltia-cms/releases):
+```bash
+curl -fsSL "https://unpkg.com/@sveltia/cms@X.Y.Z/dist/sveltia-cms.js" -o public/admin/sveltia-cms.js
+```
+Verify it downloaded a real bundle:
+```bash
+head -c 200 public/admin/sveltia-cms.js && echo && wc -c public/admin/sveltia-cms.js
+```
+Expected: non-empty JS (hundreds of KB), not an HTML error page.
+
+- [ ] **Step 2: Create `public/admin/index.html` referencing the local bundle**
 
 ```html
 <!doctype html>
@@ -1377,12 +1426,14 @@ git commit -m "feat: GitHub OAuth handler for the CMS (Netlify functions)"
     <title>TRG Content Admin</title>
   </head>
   <body>
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <script src="/admin/sveltia-cms.js"></script>
   </body>
 </html>
 ```
 
-- [ ] **Step 2: Create `public/admin/config.yml`**
+(If you prefer the CDN over self-hosting, pin the exact version **and** add a Subresource Integrity hash: `integrity="sha384-$(curl -fsSL <url> | openssl dgst -sha384 -binary | openssl base64 -A)" crossorigin="anonymous"`. Self-hosting is recommended for the unattended hand-off.)
+
+- [ ] **Step 3: Create `public/admin/config.yml`**
 
 Replace `REPLACE_WITH_CLOUDINARY_API_KEY` and `REPLACE_WITH_UPLOAD_PRESET` with the real Cloudinary values before deploying.
 
@@ -1500,20 +1551,20 @@ collections:
           - { name: aboutText, label: About paragraph, widget: text, hint: "Separate paragraphs with a blank line." }
 ```
 
-- [ ] **Step 3: Fill in the real values**
+- [ ] **Step 4: Fill in the real values**
 
 Edit `config.yml`: set `base_url` to the live site domain, `api_key` to the Cloudinary API key, `upload_preset` to the preset name.
 
-- [ ] **Step 4: Build to confirm `/admin` is published**
+- [ ] **Step 5: Build to confirm `/admin` is published**
 
 Run: `npm run build`
-Expected: `dist/admin/index.html` and `dist/admin/config.yml` exist (Astro copies `public/` verbatim).
+Expected: `dist/admin/index.html`, `dist/admin/sveltia-cms.js`, and `dist/admin/config.yml` exist (Astro copies `public/` verbatim).
 Run: `ls dist/admin`
 
-- [ ] **Step 5: Commit**
+- [ ] **Step 6: Commit**
 
 ```bash
-git add public/admin/index.html public/admin/config.yml
+git add public/admin/index.html public/admin/sveltia-cms.js public/admin/config.yml
 git commit -m "feat: Sveltia CMS admin page + collection config"
 ```
 
@@ -1570,6 +1621,13 @@ git commit -am "docs: finalize admin portal notes" || echo "nothing to commit"
 - Sveltia + GitHub OAuth (shared account) + Cloudinary — Tasks 14, 15, 16, 17. ✅
 - Durability/keep-alive docs — README (already committed) + Task 17. ✅
 - Testing/verification — Tasks 13, 17. ✅
+
+**Security hardening (from plan security review):**
+- Sveltia bundle self-hosted from our own origin (no unpinned third-party CDN executing on the token-bearing admin page) — Task 16.
+- OAuth uses a CSRF `state` cookie verified in the callback — Task 15.
+- `postMessage` is scoped to the site origin, not `"*"` — Task 15.
+- Least-privilege `public_repo` scope (public repo) + dedicated single-purpose editor account — Task 15 + Phase-4 prerequisites.
+- Client secret stays in Netlify env vars; token is never logged.
 
 **Known deviations from spec (intentional, flagged to user):**
 1. About/bio use multiline text rendered as paragraphs (`toParagraphs`) rather than full Markdown — avoids adding a markdown dependency.
